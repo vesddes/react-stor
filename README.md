@@ -1,1 +1,1 @@
-# react-stor
+# pet-proect

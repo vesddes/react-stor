@@ -1,0 +1,48 @@
+.card {
+  border: 1px solid #F3F3F3;
+  padding: 30px;
+  width: 220px;
+  border-radius: 40px;
+  box-sizing: border-box;
+  transition: 0.2s ease-in-out, transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 35px 0 rgba(0, 0, 0, 0.08);
+  }
+
+  span {
+    opacity: 0.5;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+
+  b {
+    font-size: 13px;
+  }
+
+  h5 {
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .favourite {
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .cardBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .button {
+      cursor: pointer;
+    }
+  }
+}
